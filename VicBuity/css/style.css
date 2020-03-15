@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,700|Tenor+Sans&display=swap&subset=cyrillic');
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 1.8rem;
+  font-family: 'Roboto';
+padding: 0;
+margin: 0;
+background-color: #F9F9F9 !important;
+}
+.block1{
+  width: 100%;
+  background-image: url(../img/girl.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+nav{
+  font-size: 1.4rem;
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 22REM;
+}
+ul{
+
+}
+.navbar{
+  float: right;
+}
+.logotopmenu{
+  float: left;
+}
+.navbar-toggler{
+  margin-top: 5rem;
+}
+
+.nav-link:hover{
+  color: #FE9BAB !important;
+  transform: 2s;
+}
+.topmenu{
+  margin-top: 4rem;
+  float: right;
+}
+.text18{
+  font-size: 1.8rem; 
+  font-family: 'Tenor Sans', sans-serif;
+}
+.text14{
+  font-size: 1.4rem; 
+  font-family: 'Tenor Sans', sans-serif;
+}
+button.btn1{
+  width: 18rem;
+  height: 5rem;
+  background: #FE9BAB;
+  border-radius: 2.5rem;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+
+.section1{
+  width: 100%;
+  margin-top: 70rem;
+  text-align: center;
+}
+.section1 p{
+  font-size: 1.8rem;
+  color: #484848;
+  opacity: 0.7;
+  line-height: 125%;
+  text-align: center;
+  align-items: center;
+}
+.block2{
+  width: 100%;
+
+}
+.blocksworks{
+  text-align: center;
+  margin-top: 19.5rem;
+}
+.specifity{
+  width: 24%;
+  height: 650px;
+  color: #C4C4C4;
+  background: #C4C4C4;
+  display: inline-flex;
+}
+.specifity:hover{
+  color: ;
+  width: 24%;
+  height: 650px;
+  background:  #FE9BAB;
+  display: inline-flex;
+  transition: 0.2s;
+}
+/* block3 */
+.block3{
+  width: 100%;  
+   font-family: 'Tenor Sans', sans-serif;
+   text-align: center;
+   padding: 0rem 20rem;
+}
+.design1{
+  position: relative;
+  width: 43rem; 
+  height: 70rem;  
+  display: inline-block;
+  background-color:   #FFFFFF;
+  padding: 2rem;
+}
+.text30{
+  font-size: 3rem;  
+  font-family: Spectral SC;
+  font-weight: 700; 
+  line-height: 120%;
+  color: #4D4D4D;
+
+}
+button.btn2{
+  position: absolute;
+  left: 12rem;
+  top: 57rem;
+  width: 18rem;
+  height: 5rem;
+  background: #FE9BAB;
+  border-radius: 2.5rem;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+.design1 img{
+  width: 100%;  
+  margin-bottom:3rem;
+}
+/* block4 */
+.block4{
+  width: 100%;  
+  text-align: center;
+}
+.form2{
+  position: relative;
+  width: 53rem;
+  height: 66rem;  
+  background: #FFFFFF;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+  font-family: Tenor Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 2rem;
+line-height: 125%;
+}
+.vikaimg{
+  width: 95%;
+}
+.form2 p{
+  text-align: left;
+  margin: 5rem 4rem;
+  line-height: 5rem;
+}
+.price{
+  color: white;
+  float: right;
+  font-size: 2.4rem;  
+  background: #FE9BAB;
+  padding: 0rem 2rem;
+}
+.vikacontakts{
+  position: absolute;
+  width: 35rem; 
+  height: 20rem; 
+  left: 9rem;
+  top: 55rem; 
+  background-color:   white;
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+}
+.vk{
+  background-image: url(../img/vkicon.svg);
+
+}
+.inst{
+  background-image: url(../img/instagramicon.svg);
+
+}
+.twitter{
+  background-image: url(../img/twittericon.svg);
+
+}
+.form2 a{
+  display: inline-flex;
+  margin: 3rem 1rem;
+}
+.vikacontakts span{
+  background-size: 4rem;
+  color: ;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.7;
+}
+.vikacontakts span:hover{
+  background-size: 4rem;
+  background-color: #FE9BAB;
+  border-radius: 5rem;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.7;
+  transition: 0.1s;
+}
+/* block5 */
+.block5{
+  width: 100%;
+  margin-top: 26rem;
+}
+.block5 img{
+  background-color: #FE9BAB;
+  padding: 1rem;
+  border-radius: 5rem;
+  margin-right: 3rem;
+}
+.block5 input{
+  width: 25rem;
+  height: 4rem;
+  margin: 1rem;
+  padding: 0.6rem;
+  border-color: rgba(254, 155, 171, 0.2);
+  text-indent: 3rem;
+  font-size: 1.4rem;
+
+}
+.block5 input::placeholder{
+  font-size: 1.4rem;
+  text-indent: 3rem;
+  font-size: 1.4rem;
+
+}
+.block5 input:hover{
+  border-style: none;
+  width: 25rem;
+  height: 4rem;
+  margin: 1rem;
+  padding: 0.6rem;
+  box-shadow: 0px 0px 10px rgba(254, 155, 171, 0.5)
+  text-indent: 3rem;
+  font-size: 1.4rem;
+}
+.mailform{
+  position: relative;
+
+}
+
+button.btn3{
+  margin-bottom: 5.5rem;
+  margin-top: 2rem;
+  position: absolute;
+  left: 18rem;
+  width: 18rem;
+  height: 5rem;
+  background: #FE9BAB;
+  border-radius: 2.5rem;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+.footer{
+  width: 100%;
+  background: rgba(254, 155, 171, 0.3);
+  margin-top:10rem;
+}
+.footer p{
+  display: block;
+}
+.footer img{
+  margin: 2rem 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 400px){
+  .block1{
+  width: 100%;
+}
+} 
+
+
+
+
