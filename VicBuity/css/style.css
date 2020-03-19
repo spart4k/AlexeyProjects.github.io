@@ -82,8 +82,12 @@ nav{
 ul{
 
 }
+.navbar-collapse{
+  justify-content: space-around !important;
+  justify-content: center;
+}
 .navbar{
-  float: right;
+  justify-content: space-around;
 }
 .logotopmenu{
   float: left;
@@ -91,7 +95,9 @@ ul{
 .navbar-toggler{
   margin-top: 5rem;
 }
-
+.nav-item{
+  width: 10rem; 
+}
 .nav-link:hover{
   color: #FE9BAB !important;
   transform: 2s;
@@ -208,6 +214,10 @@ font-style: normal;
 font-weight: normal;
 font-size: 2rem;
 line-height: 125%;
+}
+.form22{
+  width: 53rem; 
+
 }
 .vikaimg{
   width: 95%;
@@ -350,14 +360,36 @@ button.btn3{
   height: 66rem;  
   background: #FFFFFF;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
-  padding: 1.5rem;
+  padding: 0.2rem;
   font-family: Tenor Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 2rem;
 line-height: 125%;
 }
- 
+.form22{
+  width: 40rem;
+  margin-top:   10rem;
+}
+ .vikacontakts{
+  position: absolute;
+  width: 30rem; 
+  height: 20rem; 
+  left: 5rem;
+  top: 55rem; 
+  background-color:   white;
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+}
+.price{
+  color: white;
+  display: block;
+  font-size: 2rem;  
+  background: #FE9BAB;
+  padding: 0rem 0.5rem;
+}
+.navbar-toggler{
+  margin-right: 13rem;
+}
 } 
 @media (min-device-width: 1000px){
   .block3{
