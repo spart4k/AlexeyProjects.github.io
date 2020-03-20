@@ -123,6 +123,7 @@ button.btn1{
   font-size: 1.4rem;
 }
 
+
 .section1{
   width: 100%;
   margin-top: 70rem;
@@ -329,6 +330,18 @@ button.btn3{
   color: #FFFFFF;
   font-size: 1.4rem;
 }
+.mailform{
+
+}
+button.btn4{
+  left: 28rem;
+  width: 18rem;
+  height: 5rem;
+  background: #FE9BAB;
+  border-radius: 2.5rem;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
 .footer{
   width: 100%;
   background: rgba(254, 155, 171, 0.3);
@@ -390,14 +403,23 @@ line-height: 125%;
 .price{
   color: white;
   display: block;
-  font-size: 1rem;  
+  font-size: 1.3rem;  
   background: #FE9BAB;
-  padding: 0rem 0.5rem;
+  padding: 0rem 0rem;
 }
 .navbar-toggler{
   margin-right: 13rem;
 }
+button.btn4{
 
+  left: 17rem;
+  width: 18rem;
+  height: 5rem;
+  background: #FE9BAB;
+  border-radius: 2.5rem;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
 
 }
 @media (min-device-width: 1000px){
