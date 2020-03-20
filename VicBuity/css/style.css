@@ -390,6 +390,13 @@ line-height: 125%;
 .navbar-toggler{
   margin-right: 13rem;
 }
+h1{
+   font-family: "Spectral SC" ,serif !important;
+  font-size: 4.6rem !important;
+  font-weight: 700 !important;
+  opacity: 0.7;
+  max-width: 100% !important;
+}
 } 
 @media (min-device-width: 1000px){
   .block3{
