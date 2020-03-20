@@ -6,6 +6,7 @@ h1{
   font-size: 4.8rem !important;
   font-weight: 700 !important;
   opacity: 0.7;
+  max-width: 100% !important;
 }
 .texth1{
   font-size: 4.8rem !important;
