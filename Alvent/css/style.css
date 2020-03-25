@@ -5,6 +5,7 @@
   padding: 1rem 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  background: #FDFDFD;
 }
 .top-nav_menu{
   display: flex;
@@ -23,6 +24,7 @@ line-height: 3.4rem;
   border: 1px solid #C4C4C4;
   width: 30.9rem;
   padding: 1rem;
+  background: #FDFDFD;
 
 }
 .top-nav_menu a{
@@ -43,5 +45,69 @@ line-height: 3.4rem;
   transform: translateY(0rem) scale(1);
   transition: 0.2s;
 }
+/* block1*/
+.block1{
+padding-top: 3rem;
+}
+.left-sidebar{
+  width: 27rem; 
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+}
+.left-sidebar_menu{
+ margin: 0;
+ list-style: none;
 
+}
+.left-sidebar p{
+  margin: 0;
+  padding: 1rem 2rem;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #3A64BC;
+
+ 
+}
+.left-sidebar_menu li{
+
+}
+.left-sidebar_menu a{
+  text-decoration: none;
+  color: #404040;
+  padding: 2.25rem 2rem;
+  display: block;
+}
+.left-sidebar_menu a:hover{
+  background-color: #F5F5F5;
+  color: #3A64BC;
+  font-weight: 700;
+}
+.slider{
+  width: 86.9rem;
+  height: 45.6rem;
+  background: #C4C4C4;
+  float: left;
+}
+/* discount */
+.discount{
+  margin-top: 3rem;
+}
+.discount_img{
+  background-image: url(../img/discount.jpg);
+  height: 11.2rem;
+  width: 115.5rem;
+  background-color: linear-gradient(270deg, #8BC5F9 0%, #409AEE 100%);
+  mix-blend-mode: multiply;
+}
+.discount_img p{
+  font-family: Roboto Slab;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #F3F3F3;
+  text-align: center;
+  line-height: 10.5rem;
+
+}
 
