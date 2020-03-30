@@ -6,12 +6,14 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<title>VicBuity</title>
+		<title>Alvent</title>
 
 		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+		
 
 
 		<!-- Custom styles for this template -->
@@ -22,15 +24,20 @@
 		<div class="header">
 			<div class="container">
 				<div class="top-nav">
-					<div class="row justify-content-between align-items-center">
+					<div class="row justify-content-between ">
 						<div class="col-md-3">
 							<img src="img/logo.png" alt="">
 						</div>
 						<div class="col-md-9">
 							
+							<input type="text" placeholder="Поиск среди товаров">
+							
+								<button class="top-nav_btn">
+									<i class="icon-menu"></i>
+								</button>
 							
 							<ul class="top-nav_menu">
-								<input type="text" placeholder="Поиск среди товаров">
+								
 								<li><a href="#">Замер и монтаж</a></li>
 								<li><a href="#">Оплата и доставка</a></li>
 								<li><a href="#">Контакты</a></li>
@@ -43,7 +50,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="left-sidebar">
-								<p>Каталог товаров</p>
+								<p class="left-sidebar_btn">Каталог товаров </p>
 								<ul class="left-sidebar_menu">
 									<li><a href="">Решетки</a></li>
 									<li><a href="">Диффузоры</a></li>
@@ -55,9 +62,9 @@
 							</div>
 						</div>
 						<div class="col-md-9	">
-							<div class="slider">
+							<!--<div class="slider">
 								
-							</div>
+							</div>-->
 						</div>
 					</div>
 			
@@ -72,6 +79,7 @@
 					<div class="row">
 						<div class="col-xl">
 							<ul class="popular-towars_menu justify-content-between">
+								<p>Виды</p>
 								<li><a href="#">Решетки</a></li>
 								<li><a href="#">Диффузоры</a></li>
 								<li><a href="#">Клапаны</a></li>
@@ -111,9 +119,10 @@
 				</div>
 				<h1>Новостм</h1>
 				
+					<div class="news justify-content-between">
 					<div class="row">
 						<div class="col-md">
-						<div class="news justify-content-between">	
+							
 					<div class="news-block">
 						<h2>Заголовок новости</h2>
 						<p>Дата новости</p>
@@ -196,7 +205,8 @@
 								<div class="btn-call"><a href="	">Заказать звонок</a></div>
 							</div></div>
 						<div class="col-md-6">
-							<div class="maps">	
+							<div class="maps">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.6113835730316!2d37.60293511604488!3d55.60877681055812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab26274b8e061%3A0xaa0858eccbb527b9!2z0JLQsNGA0YjQsNCy0YHQutC-0LUg0YguLCDQnNC-0YHQutCy0LA!5e0!3m2!1sru!2sru!4v1585587596625!5m2!1sru!2sru" width="445" height="445" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 								
 							</div>
 						</div>
@@ -245,7 +255,24 @@
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				var menuBtn = $('.top-nav_btn');
+				var menu = $('.top-nav_menu');
+				var sidebarBtn = $('.left-sidebar_btn');
+				var sidebarmenu = $('.left-sidebar_menu');
 
+				menuBtn.on('click', function (event){
+					event.preventDefault();
+					menu.toggleClass('top-nav_menu__active');
+			});
+				sidebarBtn.on('click', function (event){
+					event.preventDefault();
+					sidebarmenu.toggleClass('left-sidebar_menu__active');
+			});
+		});
+			
+		</script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	</body>
 
