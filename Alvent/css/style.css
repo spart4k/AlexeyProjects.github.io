@@ -256,7 +256,6 @@ border: 1px solid #C4C4C4;
   width: 25rem;
 }
 .btn-etc{
-
   display:block;
 }
 .btn-etc a{
@@ -396,6 +395,7 @@ p.copyright{
   border: 1px solid #C4C4C4;  
   padding: 1rem 3rem;
   margin-bottom: 5rem;
+
 }
 .news-block{
   width: 27rem; 
@@ -409,6 +409,9 @@ p.copyright{
   display: inline-block;
   margin-bottom: 2rem;
 }
+  .news{
+    text-align: center;
+  }
   .popular-towars{
     padding: 3rem 5rem;
   }
@@ -417,6 +420,12 @@ p.copyright{
   }
   .articles{
     text-align: center;
+  }
+  .popular_towar{
+    margin-top: 5rem;
+  }
+  .article{
+    margin-bottom: 5rem;
   }
 }
 
