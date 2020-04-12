@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>test1</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+		<link rel="stylesheet" href="css/slick-theme.css">
+
+		
+
+
+		<!-- Custom styles for this template -->
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+
+<body>
+<div class="block1">
+	<div class="container-fluid">
+		<div class="top-nav">
+			<div class="row align-content-center d-flex">
+				<div class="col-md-1 offset-md-1">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="col-md-auto offset-md-2">
+					<ul class="top-nav_menu">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Наши работы</a></li>
+						<li><a href="#">Контакты</a></li>
+				<div class="btn-call"><a href="#">Заказать звонок</a></div>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-5 offset-md-1">
+					<h1>Строим бани в Челябинске и в области</h1>
+				<p>Мы готовы предложить как готовые решения, так и создать что-то новое вместе с Вами!</p>
+				<div class="btn-price"><a href="#">Рассчитать стоимость</a></div>
+				</div>
+				
+				<div class="col-md-5">
+					<div class="slider">
+						<img src="img/img1.png" alt="">
+						<img src="img/img2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+			$(document).ready(function() {
+				var menuBtn = $('.topnav_btn');
+				var menu = $('.topnav_menu');
+
+				menuBtn.on('click', function (event){
+					event.preventDefault();
+					menu.toggleClass('topnav_menu__active');
+			});
+		});
+			
+		</script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	</body>
+
+</html>
