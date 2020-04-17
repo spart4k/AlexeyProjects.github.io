@@ -64,7 +64,18 @@ line-height: 88px;
   display: inline-block;
   background: #75E5CA;
 border-radius: 50px;
+border: 3px solid #75E5CA;
 }
+.btn-etc:hover{
+  background-color: transparent;
+  color: #75E5CA;
+  border: 3px solid #FFFFFF;
+  transition: 0.2s;
+}
+.btn-etc a:hover{
+
+}
+
 /* block2 */
 .block2{
   position: relative;
