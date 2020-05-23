@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="basket-1" unicode="&#xe801;" d="M950 715q23 0 39-18t14-42l-53-365q-2-18-17-31t-34-12l-590 0 9-53 528 0q22 0 37-16t16-36-16-37-37-15l-572 0q-20 0-35 13t-16 30l-98 582-72 0q-22 0-37 15t-16 37 16 36 37 16l116 0q19 0 34-12t17-32l11-60 719 0z m-60-105l-200 0 0-103 185 0z m-252 0l-157 0 0-103 157 0 0 103z m0-156l-157 0 0-104 157 0 0 104z m-208 156l-182 0 18-105q3 2 8 2l156 0 0 103z m-156-156l17-104 139 0 0 104-156 0z m416-104l164 0 14 104-178 0 0-104z m-416-390q0 78 77 78 79 0 79-78 0-79-79-79-77 0-77 79z m469 0q0 78 77 78 79 0 79-78 0-79-79-79-77 0-77 79z" horiz-adv-x="1003" />
+
+<glyph glyph-name="search-1" unicode="&#xe802;" d="M0-41q0 47 33 80l260 260q-43 82-43 176 0 154 109 265t266 110 266-110 109-266-109-265-266-109q-94 0-176 43l-260-260q-33-33-80-33-45 0-77 32t-32 77z m55 1q0-22 16-39t39-16 40 17l252 252q-45 33-78 78l-252-252q-17-17-17-40z m258 515q0-129 91-221t221-91 221 91 91 221-91 221-221 91-221-91-91-221z m93 0q0 90 65 154t154 65q16 0 16-16t-16-16q-78 0-133-54t-54-133q0-16-16-16t-16 16z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
