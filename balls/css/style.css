@@ -133,6 +133,7 @@ input{
 }
 .content-block button{
   font-family: Montserrat;
+  font-weight: 700;
   background-color: transparent;
   outline: none;
   border-style: none;
@@ -142,6 +143,13 @@ input{
   padding: 1.5rem 7.2rem;
   background: #CF036A;
   border-radius: 25px;
-
+  border-style: solid;
+  border-size:3rem;
+  border-color: #CF036A;
+}
+.content-block button:hover{
+  background:transparent;
+  color:#CF036A;
+  transition: 0.2s;
 }
 
