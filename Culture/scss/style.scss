@@ -1,0 +1,51 @@
+.block-end{
+	.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 7.8rem 17.4rem 0px 5.9rem;
+  align-items: center;
+  a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 2.4rem;
+    }
+  &__menu{
+    display: flex;
+	list-style: none;
+	a{
+		margin-left: 15rem;
+	}
+  .first_a::after{
+  		content: '';
+  		display: block;
+  		width: 35%;
+  		height: 0.3rem;
+  		background-color: #fff;
+  		transform: translateX(33rem) translateY(-1.4rem) ;
+  		
+  	    }
+  .second_a::after{
+  		content: '';
+  		display: block;
+  		width: 40%;
+  		height: 0.3rem;
+  		background-color: #fff;
+  		transform: translateX(28.5rem) translateY(-1.4rem) ;
+  	    }
+	
+  }
+
+}
+	&__content{
+  		background-image:url(../img/state.png);
+  		mix-blend-mode: multiply;
+  		background-repeat: no-repeat;
+  		background-position: top center;
+ 		background-blend-mode: multiply;
+  		font-size: 16rem;
+  		color: #fff;
+  		
+  	}
+
+}
+
