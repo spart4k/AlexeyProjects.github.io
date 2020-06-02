@@ -20,8 +20,17 @@
   box-shadow: 0 4px 26px 0 #e1e1e1;
 }
 .block-end__nav-text {
+  display: flex;
+  align-items: center;
   font-size: 1.4rem;
   color: #6d7277;
+  span{
+    color: #8a7c5d;
+    margin-left: 1.5rem;
+  }
+  img{
+    display: inline-block;
+  }
 }
 .block-end__header {
   padding: 3rem 4.5rem;
