@@ -37,14 +37,34 @@
 
 }
 	&__content{
+		padding-top: 15rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
   		background-image:url(../img/state.png);
-  		mix-blend-mode: multiply;
   		background-repeat: no-repeat;
   		background-position: top center;
- 		background-blend-mode: multiply;
   		font-size: 16rem;
   		color: #fff;
+  		& p{
+  			display: flex;
+  			align-items: center;
+  		}
+  		& span{
+  			font-size: 6.5rem;
+  			padding: 6rem 4rem;
+  			border-style:solid;
+  			border-width: 5px;
+  			border-radius: 50rem;
   		
+  		}
+  		& p:hover{
+  			color: transparent;
+  			-webkit-text-stroke: 3px #fff;
+  			transition: 0.2s;
+  		}
+  		& span:hover{
+  			border-color: #fff;
+  		}
   	}
 
 }

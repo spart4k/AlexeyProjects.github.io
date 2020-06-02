@@ -1,0 +1,120 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.block-end {
+  justify-content: center;
+  width: 100%;
+  height: 81.5rem;
+  max-width: 130rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 26px 0 #e1e1e1;
+}
+.block-end__nav-text {
+  font-size: 1.4rem;
+  color: #6d7277;
+}
+.block-end__header {
+  padding: 3rem 4.5rem;
+}
+.block-end__header p {
+  max-width: 48.5rem;
+  line-height: 1.5;
+}
+.block-end__image {
+  width: 100%;
+  height: 45rem;
+  background-image: url(../img/backimg.png);
+  object-fit: contain;
+}
+.block-end__dropdown {
+  display: flex;
+  justify-content: space-between;
+  background-color: #142536;
+  color: #fff;
+  font-size: 2.2rem;
+  padding: 3rem 4.5rem;
+  border-bottom: solid 1px #405265;
+}
+.block-end__menu-first, .block-end__menu-second {
+  display: none;
+  background-color: #142536;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 2.9rem 4.5rem;
+}
+.block-end__menu-first a, .block-end__menu-second a {
+  color: #5a88c1;
+}
+.block-end__menu-first p, .block-end__menu-second p {
+  max-width: 69.3rem;
+}
+.block-end__menu-first img, .block-end__menu-second img {
+  flex-direction: row;
+  margin-left: 11.1rem;
+}
+.block-end__menu-first__active, .block-end__menu-second__active {
+  display: flex;
+  align-items: center;
+}
+.block-end .content {
+  flex-direction: column;
+}
+.block-end__form {
+  flex-direction: column;
+  display: flex;
+}
+.block-end__form input {
+  flex-direction: column;
+  max-width: 28rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #5c738b;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.5;
+  padding-bottom: 3px;
+  margin-top: 3rem;
+}
+.block-end__form input:hover {
+  border-color: #fff;
+  transition: 0.2s;
+}
+.block-end__form::-ms-input-placeholder {
+  font-size: 1.6rem;
+  color: #5c738b;
+  padding-bottom: 3px;
+}
+.block-end__form::placeholder {
+  font-size: 1.6rem;
+  color: #5c738b;
+  padding-bottom: 3px;
+}
+.block-end .form-button {
+  margin-top: 4.5rem;
+  max-width: 21.4rem;
+  height: 5rem;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 29.5px;
+  border: solid 1px #ffffff;
+  text-align: center;
+}
+.block-end .form-button:hover {
+  background-color: #fff;
+  color: #5c738b;
+  transition: 0.2s;
+}
