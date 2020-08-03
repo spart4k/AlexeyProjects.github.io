@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px){
+	.content-block {
+		padding: 1.4rem 7.6rem;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.content-block{
+		padding: 1.4rem 4rem;
+	}
+	.content-block h1{
+		font-size: 7rem;
+	}
+	.content-block p{
+		font-size: 2rem;
+		margin-bottom: 3rem;	
+		max-width: 40rem;
+	}
+}
+@media screen and (max-width: 767px){
+	.search-input-block{
+		display: none;
+	}
+	.content-block{
+		padding: 1.4rem 4rem;
+	}
+	.content-block h1{
+		font-size: 5rem;
+		margin-bottom: 1rem;
+	}
+	.content-block p{
+		font-size: 2rem;
+		margin-bottom: 1.2rem;	
+		max-width: 33rem;
+	}
+	.content-block button{
+  font-size: 1.5rem;
+  padding: 1rem 6rem;
+  border-size:3rem;
+}
+}
+@media screen and (max-width: 320px){
+	.search-input-block{
+		display: none;
+	}
+}
