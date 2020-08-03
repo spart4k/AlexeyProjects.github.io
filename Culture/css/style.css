@@ -1,0 +1,63 @@
+.block-end .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 7.8rem 17.4rem 0px 5.9rem;
+  align-items: center;
+}
+.block-end .nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+.block-end .nav__menu {
+  display: flex;
+  list-style: none;
+}
+.block-end .nav__menu a {
+  margin-left: 15rem;
+}
+.block-end .nav__menu .first_a::after {
+  content: "";
+  display: block;
+  width: 35%;
+  height: 0.3rem;
+  background-color: #fff;
+  transform: translateX(33rem) translateY(-1.4rem);
+}
+.block-end .nav__menu .second_a::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 0.3rem;
+  background-color: #fff;
+  transform: translateX(28.5rem) translateY(-1.4rem);
+}
+.block-end__content {
+  padding-top: 15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-image: url(../img/state.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-size: 16rem;
+  color: #fff;
+}
+.block-end__content p {
+  display: flex;
+  align-items: center;
+}
+.block-end__content span {
+  font-size: 6.5rem;
+  padding: 6rem 4rem;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50rem;
+}
+.block-end__content p:hover {
+  color: transparent;
+  -webkit-text-stroke: 3px #fff;
+  transition: 0.2s;
+}
+.block-end__content span:hover {
+  border-color: #fff;
+}

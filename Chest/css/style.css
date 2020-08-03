@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .block-start{
   width: 100%;  
   height: 108rem;  
@@ -22,3 +23,228 @@
   text-decoration: none;
   color: #F1F1F1;
 }
+=======
+@charset "UTF-8";
+.block-start {
+  width: 100%;
+  height: 108rem;
+  background-image: url(../img/backblock1.jpg);
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6.8rem;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu li {
+  margin-left: 10rem;
+  list-style: none;
+}
+
+.navbar__menu a {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #F1F1F1;
+  position: relative;
+  cursor: pointer;
+  line-height: 2;
+  /*задаём высоту строки*/
+  text-decoration: none;
+  /*убираем подчёркивание*/
+}
+.navbar__menu a.right:after {
+  display: block;
+  position: absolute;
+  right: 0;
+  /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0;
+  /*задаём длинну линии до наведения курсора*/
+  height: 2px;
+  /*задаём ширину линии*/
+  background-color: #fff;
+  /*задаём цвет линии*/
+  content: "";
+  transition: width 0.3s ease-out;
+  /*задаём время анимации*/
+}
+.navbar__menu a.left:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0;
+  /*задаём длинну линии до наведения курсора*/
+  height: 2px;
+  /*задаём ширину линии*/
+  background-color: #fff;
+  /*задаём цвет линии*/
+  content: "";
+  transition: width 0.3s ease-out;
+  /*задаём время анимации*/
+}
+.navbar__menu a:hover:after, .navbar__menu a:focus:after {
+  width: 100%;
+  /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.block-start__content {
+  margin-top: 17.8rem;
+}
+.block-start__content span {
+  color: #AF6133;
+}
+.block-start__content h1 {
+  margin-bottom: 6.8rem;
+}
+.block-start__content p {
+  font-weight: 500;
+  color: #F1F1F1;
+  max-width: 70rem;
+  margin-bottom: 6.4rem;
+}
+.block-start__content p span {
+  font-weight: 700;
+  color: #F1F1F1;
+}
+.block-start__content button {
+  display: block;
+  padding: 2.6rem 7.2rem;
+  background: #AF6133;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 18rem;
+  filter: drop-shadow(0 0 10px rgba(100, 0, 0, 0.5));
+  transition: 0.2s linear;
+  border-style: solid;
+  border-color: #AF6133;
+  border-width: 3px;
+}
+.block-start__content button:hover {
+  background-color: transparent;
+  filter: drop-shadow(0 0 10px rgba(100, 0, 0, 0));
+  color: #fff;
+}
+.block-start__content .drop-down {
+  font-size: 1rem;
+  padding: 3.9rem 3rem;
+  border-radius: 50%;
+  margin: 0;
+  position: fixed;
+  top: 750px;
+  right: 20px;
+}
+
+.block-center__content {
+  color: #303030;
+}
+.block-center__content h1 {
+  color: #303030;
+  margin-bottom: 6.4rem;
+  margin-top: 9.5rem;
+}
+.block-center__content p {
+  max-width: 74.6rem;
+  margin-bottom: 6.4rem;
+}
+.block-center__content p.chest-number {
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.block-center__content a {
+  color: #AF6133;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 11rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.block-end {
+  background-image: url(../img/backblock3.jpg);
+  padding-top: 11.3rem;
+  padding-bottom: 23rem;
+}
+.block-end__content {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.block-end__content p {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #F1F1F1;
+  max-height: 8rem;
+  max-width: 60rem;
+  margin-top: 4.3rem;
+}
+.block-end__content span {
+  font-size: 5rem;
+  max-height: 6rem;
+  margin-top: -10rem;
+}
+.block-end__img {
+  padding-top: 25rem;
+}
+.block-end__form {
+  width: 48.8rem;
+  height: 49.5rem;
+  background: #F1F1F1;
+  border-radius: 20px;
+  padding: 5.4rem 4.3rem;
+}
+.block-end__form input {
+  font-family: Montserrat;
+  font-weight: 700;
+  width: 402px;
+  height: 82px;
+  left: 1150px;
+  top: 385px;
+  background: #E7E7E7;
+  border-radius: 20px;
+  outline: none;
+  border-style: none;
+  margin-bottom: 5.7rem;
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  padding: 2.6rem 3rem;
+  font-size: 2.4rem;
+}
+.block-end__form input::-ms-input-placeholder {
+  opacity: 0.6;
+  font-weight: 400;
+}
+.block-end__form input::placeholder {
+  opacity: 0.6;
+  font-weight: 400;
+}
+.block-end__form .Name {
+  background-image: url(../img/peopleicon.png);
+  background-size: 2.8rem;
+}
+.block-end__form .Email {
+  background-image: url(../img/mailicon.png);
+  background-size: 3.1rem;
+}
+.block-end__button {
+  width: 402px;
+  height: 82px;
+  background: #AF6133;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.4rem;
+  filter: drop-shadow(0 0 10px rgba(100, 0, 0, 0.5));
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 4105b73982bf3066da66f5e88bfbe2eeacb0eb08
