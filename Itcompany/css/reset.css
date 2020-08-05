@@ -1,0 +1,25 @@
+html{
+  font-size: 10px;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+}
+h1{
+  font-size: 3.6rem;
+  color: #323232;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+  max-width: 1110px;
+  margin: auto;
+
+}

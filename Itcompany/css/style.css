@@ -1,0 +1,98 @@
+.blockstart {
+  width: 100%;
+  height: 90rem;
+  background-image: url(../img/back-start.png);
+}
+.blockstart hr {
+  opacity: 0.5;
+}
+.blockstart-header__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.blockstart-header__nav-bar {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 60rem;
+}
+.blockstart-header__nav-bar a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 4rem 0 3.9rem 0;
+}
+.blockstart-content {
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-top: 26rem;
+}
+.blockstart-content p.heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin: 2rem 0 4rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 3.6rem;
+  background: #4985FF;
+  color: #FFF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
+
+.blockservices {
+  text-align: center;
+  min-height: 70.3rem;
+}
+.blockservices p {
+  color: #999999;
+}
+.blockservices__heading {
+  max-width: 73.9rem;
+  margin: 11rem auto 7rem auto;
+  text-align: center;
+}
+.blockservices__heading h1 {
+  line-height: 5.2rem;
+}
+.blockservices__heading p {
+  margin-top: 5rem;
+  line-height: 2.5rem;
+}
+.blockservices-list {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+}
+.blockservices-list .icon-border {
+  padding: 1rem;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  max-height: 9.6rem;
+}
+.blockservices-list .icon {
+  padding: 2rem;
+  border: 1px solid #4985FF;
+  border-radius: 50%;
+}
+.blockservices-list .icon img {
+  max-height: 4rem;
+  margin: 0.5rem;
+}
+.blockservices-list__tables {
+  display: flex;
+  max-width: 35rem;
+}
+.blockservices-list__tables-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0rem 0rem 5.5rem 1.7rem;
+}
+.blockservices-list__tables-content h2 {
+  margin: 3rem 0rem 1.2rem 0rem;
+}
