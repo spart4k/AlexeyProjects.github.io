@@ -23,11 +23,10 @@
   font-size: 1.6rem;
   padding: 4rem 0 3.9rem 0;
 }
-<<<<<<< HEAD
 .blockstart-header__nav-bar a::after {
   content: "";
   display: block;
-  width: 110%;
+  width: 105%;
   height: 0.2rem;
   background-color: #fff;
   transform: translateY(4.1rem) scale(0);
@@ -36,8 +35,6 @@
   transform: translateY(4.1rem) scale(1);
   transition: 0.3s;
 }
-=======
->>>>>>> 8771398f6aeba57b53100a53bc21084c8fcaef1e
 .blockstart-content {
   text-align: center;
   color: #fff;
