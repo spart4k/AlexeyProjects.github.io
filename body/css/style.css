@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 3.2rem;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+.header p.logo-text {
+  font-size: 1.4rem;
+  max-width: 14.1rem;
+  margin-left: 3.5rem;
+}
+.header .maps {
+  display: flex;
+  align-items: center;
+}
+.header .maps__block {
+  max-width: 19rem;
+  flex-direction: column;
+  align-content: center;
+}
+.header .maps p {
+  font-size: 1.6rem;
+}
+.header .maps a {
+  font-size: 1.2rem;
+  color: red;
+  letter-spacing: 2px;
+}
+.header .information {
+  display: flex;
+  flex-direction: column;
+}
+.header .information img {
+  display: inline-block;
+  max-width: 3.5rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+.header .information .call .time {
+  display: flex;
+  flex-direction: row;
+}
+.header .information .call__block {
+  display: flex;
+  flex-direction: column;
+}
+.header .information .time {
+  display: flex;
+  font-size: 1.6rem;
+  align-items: center;
+}
+.header .information .call {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.header .information .call .number {
+  font-size: 2.4rem;
+}
+.header .btn {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: 300;
+}
+.header .btn span {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.header .btn span img {
+  margin-right: 10px;
+}
+
+.nav {
+  margin-top: 3rem;
+  background: white;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  box-shadow: 0px 15px 0 -7px rgba(158, 155, 155, 0.2);
+}
+.nav .navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.nav .navbar a {
+  padding: 1.8rem 2.62rem;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.nav .navbar a:hover {
+  background-color: #F7A8AA;
+  transition: 0.2s;
+  border-radius: 10px;
+}

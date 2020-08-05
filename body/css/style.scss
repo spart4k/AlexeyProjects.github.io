@@ -1,0 +1,106 @@
+.header{
+	display: flex;
+	align-items: center;
+	padding-top: 3.2rem;
+	justify-content: space-between;
+	font-weight: 300;
+	.logo{
+		display: flex;
+		align-items: center;
+	}
+	p.logo-text{
+		font-size: 1.4rem;
+		max-width: 14.1rem;
+		margin-left: 3.5rem;
+
+	}
+	.maps{
+		display: flex;
+		align-items: center;
+		&__block{
+			max-width: 19rem;
+			flex-direction: column;
+			align-content: center;
+		}
+		p{
+			font-size: 1.6rem;
+		}
+		a{
+			font-size: 1.2rem;
+			color:red;
+			letter-spacing: 2px;
+		}
+	}
+	.information{
+		display: flex;
+		flex-direction: column;
+		img{
+			display: inline-block;
+			max-width: 3.5rem;
+			background-color: white;
+			border-radius: 50%;
+			padding: 10px;
+			margin-right: 10px;
+		}
+		.call .time{
+			display: flex;
+			flex-direction: row;
+		}
+		.call__block{
+			display: flex;
+			flex-direction: column;
+		}
+		.time{
+			display: flex;
+			font-size: 1.6rem;
+			align-items: center;
+		}
+		.call{
+			display: flex;
+			align-items: center;
+			font-size: 1.2rem;
+			font-weight: 300;
+			.number{
+				font-size: 2.4rem;	
+			}
+		}
+		
+	}
+	.btn{
+		background-color: white;
+		padding: 20px;
+		border-radius: 50px;
+		font-weight: 300;
+		span{
+			display: flex;
+			align-items: center;
+			font-size: 1.5rem;
+			img{
+				margin-right: 10px;
+			}
+		}	
+		}
+}
+.nav{
+	margin-top: 3rem;
+	background: white;
+	border-radius: 10px;
+	font-weight: 300;
+	font-size: 1.5rem;	
+	box-shadow: 0px 15px 0 -7px rgba(158, 155, 155, 0.2);			
+	.navbar{
+		display: flex;
+		list-style: none;
+		justify-content: space-between;
+		a{	padding: 1.8rem 2.62rem;
+			text-decoration: none;
+			color: black;
+			display: block;
+			&:hover{
+				background-color:#F7A8AA;
+				transition: 0.2s;
+				border-radius: 10px;
+			}
+		}
+	}
+}

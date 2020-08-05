@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Culture</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+		<div class="container">	
+		<div class="header">
+			<div class="logo">	
+				<img src="img/logo.png" alt=""><a href=""></a></img>
+			<p class="logo-text">Студия депиляции и
+массажный кабинет
+в Бресте</p>
+			</div>
+			<div class="maps">
+			<img src="img/maps.png" alt="">
+				<div class="maps__block">	
+				<p>Мы находимся в центре:
+г. Брест, ул. Гоголя, д.65</p><br>
+			<a href="#">СМОТРЕТЬ НА КАРТЕ</a>
+				</div>
+			</div>
+			<div class="information">
+				<div class="call">
+				<img src="img/call.png" alt="">
+			<div class="call__block">
+				<span>Звоните, мы сейчас работаем</span>
+			<p class="number">+375 33 382 24 99</p>
+			</div>
+					</div>
+					<div class="time">
+				<img src="img/time.png" alt="">
+			<span>Пн-Вс 9:00-21:00</span>
+					</div>
+			</div>
+			<div class="btn">
+				<span><img src="img/daylist.png" alt="">Записаться онлайн</span>
+			</div>
+				
+			
+		</div>
+		<div class="nav">
+			<ul class="navbar">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Шугаринг и депиляция воском</a></li>
+				<li><a href="#">Антицеллюлитный массаж</a></li>
+				<li><a href="#">Классический массаж</a></li>
+				<li><a href="#">Обучение</a></li>
+				<li><a href="#">Косметика для мастеров</a></li>
+				<li><a href="#">Статьи</a></li>
+				<li><a href="#">О студии</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+		</div>
+  
+
+		<!-- Custom styles for this template -->
+		<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+		<script src="js/script.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	</body>
+
+</html>

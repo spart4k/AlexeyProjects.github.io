@@ -1,0 +1,14 @@
+.blockstart__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.blockstart__nav-bar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.blockstart__nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}

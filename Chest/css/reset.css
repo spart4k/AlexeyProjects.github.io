@@ -19,6 +19,10 @@ body{
 	padding: 0;
 }
 h1{
+<<<<<<< HEAD
+		
+    font-family: Amatic SC;	
+=======
   font-weight: bold;
   font-size: 6.4rem;
   line-height: 78px;
@@ -32,4 +36,5 @@ button{
   outline: none;
   border-style: none;
   cursor: pointer;
+>>>>>>> 4105b73982bf3066da66f5e88bfbe2eeacb0eb08
 }
