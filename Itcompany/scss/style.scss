@@ -112,3 +112,50 @@
 		}
 	}
 }
+.blockdevelopment{
+	background-color: #F6F6F8;
+	min-height: 80rem;
+	padding-top: 10rem;
+	hr{
+		margin: 9rem 0 7rem 0;
+		opacity: 0.5;
+	}
+	&__content{
+		display: flex;
+		justify-content: space-between;
+		
+		&-text{
+			max-width: 48.9rem;
+			margin-top: 5rem;
+			p{	
+				margin: 4rem 0 3rem 0;
+  				font-size: 1.6rem;
+  				line-height: 2.5rem;
+  				color: #999999;
+			}
+			a{
+				color: #4985FF;
+			}
+		}
+	}
+	&__list{
+		display: flex;
+		justify-content: space-between;
+		&-table{
+			min-width: 7rem;
+			text-align: center;
+			p.number{
+			display: inline-block;
+			font-size: 3.6rem;
+			color: #000000;
+			margin-left: 2rem;
+			}
+			p{
+				margin-top: 1.7rem;
+				font-size: 1.6rem;
+				color: #999999;
+			}
+		}
+		
+	}
+}
