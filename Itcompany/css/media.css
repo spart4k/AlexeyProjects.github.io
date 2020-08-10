@@ -1,46 +1,93 @@
-@media screen and (max-width: 1200px){
-	.content-block {
-		padding: 1.4rem 7.6rem;
+@media screen and (max-width: 1010px){
+	.blockdevelopment__content-text{
+		margin: auto;
+		text-align: center;
 	}
+	.blockdevelopment__content img{
+		margin: 5rem auto 0 auto;
+	}
+	.blockscience-heading h1{
+		margin: 0 auto 5rem auto;
+		text-align: center;
+		font-size: 3rem;	
+	}
+	.blockscience-heading .btn{
+		margin: auto;
+	}
+}
+@media screen and (max-width: 1010px){
+	.blockdevelopment__list-table{
+		margin-bottom: 2rem;
+		padding: 1rem;
+	}
+}
+@media screen and (max-width: 600px){
+	.blockscience__list-table img{
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 600px){
+	.blockservices__list-table{
+		max-width: 320px;
+	}
+}
+@media screen and (max-width: 400px){
+	.blockproject-heading{
 
-}
-@media screen and (max-width: 991px){
-	.content-block{
-		padding: 1.4rem 4rem;
-	}
-	.content-block h1{
-		font-size: 7rem;
-	}
-	.content-block p{
-		font-size: 2rem;
-		margin-bottom: 3rem;	
-		max-width: 40rem;
 	}
 }
-@media screen and (max-width: 767px){
-	.search-input-block{
-		display: none;
+@media screen and (max-width: 1024px){
+	.blockproject-list__table{
+		margin: 0 auto 5rem auto;
 	}
-	.content-block{
-		padding: 1.4rem 4rem;
-	}
-	.content-block h1{
-		font-size: 5rem;
-		margin-bottom: 1rem;
-	}
-	.content-block p{
-		font-size: 2rem;
-		margin-bottom: 1.2rem;	
-		max-width: 33rem;
-	}
-	.content-block button{
-  font-size: 1.5rem;
-  padding: 1rem 6rem;
-  border-size:3rem;
 }
+@media screen and (max-width: 1024px){
+	.footer ul{
+		margin: 0 auto 0 auto;
+	}
 }
-@media screen and (max-width: 320px){
-	.search-input-block{
-		display: none;
+@media screen and (max-width: 400px){
+	.input{
+		width: 100%;	
+	}
+}
+@media screen and (max-width: 800px){
+	.blockreview-video{
+		height: 30rem;
+	}
+	.blockreview-video__btn{
+		margin: 11rem 0 11rem 0;
+	}
+}
+@media screen and (min-width: 800px){
+	input[type="submit"]{
+		font-size: 1.6rem;	
+	}
+}
+@media screen and (max-width: 800px){
+	.footer ul{
+		padding: 0 3rem 0 3rem;
+		min-width: 19.5rem;
+	}
+}
+@media screen and (max-width: 600px){
+	.blockreview-video{
+		margin: 20rem auto 15rem auto;
+		height: 20rem;
+	}
+	.blockreview-video__btn{
+		margin: 7rem 0 7rem 0;
+		padding: 1rem 2rem 1rem 2rem;
+	}
+	.blockreview-video__btn img{
+		max-width: 4rem;
+	}
+	input[type="submit"]{
+		font-size: 1.2rem;	
+	}
+}
+@media screen and (max-width: 699px){
+	.blockscience__list-table{
+		text-align: center;
 	}
 }
