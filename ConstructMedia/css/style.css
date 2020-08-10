@@ -214,3 +214,90 @@
 .blockpartner-list__table {
   margin: auto;
 }
+
+.blockreview {
+  padding: 15rem 0rem;
+}
+.blockreview-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.blockreview-list__table {
+  text-align: left;
+  max-width: 35rem;
+  margin: 6.4rem auto 0 auto;
+}
+.blockreview-list__table-pre {
+  background-color: #F7F7F7;
+  padding: 3.8rem 3rem;
+}
+.blockreview-list__table p {
+  margin-top: 3rem;
+  font-size: 2.1rem;
+}
+.blockreview-list__table p span {
+  color: #F7654A;
+}
+
+.blockwork-heading {
+  width: 100%;
+  background-color: #F7654A;
+  padding: 3rem 0 3rem 0;
+}
+.blockwork-heading-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.blockwork-btn {
+  color: #000;
+  padding: 1.4rem 3rem;
+  background-color: #FFFFFF;
+}
+.blockwork-btn:hover {
+  cursor: pointer;
+}
+.blockwork-btn img {
+  margin-right: 1.5rem;
+}
+
+.blockcontact {
+  text-align: center;
+  padding: 10rem 0 15rem 0;
+}
+.blockcontact-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 2.4rem;
+}
+.blockcontact-list__table {
+  max-width: 25.5rem;
+  margin: 6rem auto 0 auto;
+}
+.blockcontact-list__table img.mail {
+  padding-top: 1rem;
+}
+.blockcontact-list__table span {
+  color: #999999;
+}
+.blockcontact-list__table .contact-head {
+  padding: 2.5rem 0rem;
+  color: #999999;
+}
+
+.footer {
+  background: #404149;
+  padding: 3rem 0;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}

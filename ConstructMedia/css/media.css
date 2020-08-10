@@ -13,4 +13,16 @@
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
+@media screen and (max-width: 400px){
+	.blockcontact-list__table {
+  		max-width: 25.5rem;
+  		margin: 6rem auto 0 auto;
+  		padding: 3rem
+	}
+	h1{
+		font-size: 4.8rem;
+	}
+	.blockstart-big-list img{
+		max-width: 32rem;
+	}
 }
