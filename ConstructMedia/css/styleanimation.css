@@ -1,0 +1,40 @@
+@keyframes slideDown {
+    0% {
+        transform: translateY(150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }   
+}
+@keyframes slideUp{
+	0% {
+        transform: translateY(-150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }   
+}
+@keyframes slideleft{
+	0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    } 
+}
+@keyframes slideright{
+	0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    } 
+}

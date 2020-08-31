@@ -8,12 +8,24 @@
 	&-header__nav{
 		display: flex;
 		justify-content: flex-end;
+		.icon-menu{
+			
+		}
 		&-bar{
 			display: flex;
 			justify-content: space-around;
 			flex-wrap: wrap;
 			list-style: none;
 			width: 60rem;
+			&__active{
+				flex-direction: column;
+				justify-content: flex-start;
+				width: 40%;
+				padding-left: 3rem;
+				height: 100%;
+				padding-top: 2rem;
+				position: fixed;
+				}
 			li{
 			}
 			a{	
@@ -141,11 +153,19 @@
 
 		img{
 			max-width: 100%;
+			animation-name: slideright;
+  			animation-duration: 1s;
+  			animation-timing-function: ease-in-out; 
+  			animation-delay: 0;
 		}
 		
 		&-text{
 			max-width: 48.9rem;
 			margin-top: 5rem;
+			animation-name: slideleft;
+  			animation-duration: 1s;
+  			animation-timing-function: ease-in-out; 
+  			animation-delay: 0;
 			p{	
 				margin: 4rem 0 3rem 0;
   				font-size: 1.6rem;
@@ -165,6 +185,36 @@
 			min-width: 7rem;
 			text-align: center;
 			margin: auto;
+			&__first{
+				animation-name: slideDown;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0s;
+			}
+			&__second{
+				animation-name: slideDown;
+  				animation-duration: 1.5s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0s;
+			}
+			&__third{
+				animation-name: slideDown;
+  				animation-duration: 2s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0s;
+			}
+			&__fourth{
+				animation-name: slideDown;
+  				animation-duration: 2.5s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0s;
+			}
+			&__fifth{
+				animation-name: slideDown;
+  				animation-duration: 3s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0s;
+			}
 			p.number{
 			display: inline-block;
 			font-size: 3.6rem;
@@ -191,6 +241,10 @@
 		position: absolute;
 		top: 0;
 		z-index: -1;
+		animation-name: Gradiend;
+  		animation-duration: 3s;
+  		animation-timing-function: ease-in-out;
+  		animation-iteration-count: infinite;
 	}
 	&-heading{
 		padding-top: 10rem;
@@ -213,6 +267,21 @@
 		&-table{
 			max-width: 35rem;
 			margin: 2rem auto 2rem auto;
+			&__first{
+				animation-name: slideleft;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out;
+			}
+			&__second{
+				animation-name: none;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out;
+			}
+			&__third{
+				animation-name: slideright;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out;
+			}
 			img{
 
 			}
@@ -238,6 +307,9 @@
 	&-heading{
 		max-width: 73rem;
 		margin: auto;
+		animation-name: slideDown;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out;
 		p{
 			margin: 5rem auto 7rem auto;
 		}
@@ -248,6 +320,26 @@
 		flex-wrap: wrap;
 		margin-bottom: 5rem;
 		&__table{
+			&-first{
+				animation-name: slideDown;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out;
+			}
+			&-second{
+				animation-name: slideDown;
+  				animation-duration: 1.5s;
+  				animation-timing-function: ease-in-out;
+			}
+			&-third{
+				animation-name: slideDown;
+  				animation-duration: 2s;
+  				animation-timing-function: ease-in-out;
+			}
+			&-fourth{
+				animation-name: slideDown;
+  				animation-duration: 2.5s;
+  				animation-timing-function: ease-in-out;
+			}
 			img{
 				box-shadow: 0px 20px 30px rgba(111, 111, 111, 0.6);
 			}
@@ -363,6 +455,9 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		animation-name: slideDown;
+ 		animation-duration: 1.5s;
+  		animation-timing-function: ease-in-out;
 	}
 	ul{	
 		p{

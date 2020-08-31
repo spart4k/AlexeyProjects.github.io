@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>StorePad</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/media.css">
+
+		
+		<!-- Custom styles for this template -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!--header leftmenu-->
+		<div class="leftmenu">
+			<div class="nav">
+				<a href="#"><img src="img/logotype.png" alt="Логотип"></a>
+			<ul class="navbar">
+				
+				<li><a href="#"><div class="icon imgMain"></div>Главная</a></li>
+				<li><a href="#"><div class="icon imgOrder"></div>Заказы</a></li>
+				<li><a href="#"><div class="icon imgClients"></div>Клиенты</a></li>
+				<li><a href="#"><div class="icon imgDisplay"></div>Дисплей</a></li>
+			</ul>
+			</div>
+		</div>
+		<!--header leftmenu-->
+		<!--header main-->
+		<div class="main">
+			<!--header header-->
+			<div class="header">
+			<div class="personalAreaBar">
+				<a href="#"><img src="img/avatar.png" alt="Аватар" class="avatar"><p class="name">Lestate15</p></a>
+				<a href="#"><img src="img/notification.png" alt="Уведомления"></a>
+			</div>
+			</div>
+			<!--header header-->
+
+			<!--header content-->
+			<div class="content">
+				<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
+			</div>
+			<!--header content-->
+		</div>
+		<!--header main-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+		<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" ></script>
+
+		<script>
+			$(document).ready(function() {
+    				$('#example').DataTable( {
+        "ajax": '../ajax/data/arrays.txt'
+    } );
+} );
+		</script>	
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	</body>
+
+</html>

@@ -1,0 +1,52 @@
+@keyframes slideDown {
+    0% {
+        transform: translateY(150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }   
+}
+@keyframes slideUp{
+	0% {
+        transform: translateY(-150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }   
+}
+@keyframes slideleft{
+	0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    } 
+}
+@keyframes slideright{
+	0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }  
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    } 
+}
+@keyframes Gradiend{
+    0% {
+        background: #5F12D0 80.91%;
+    }
+    50%{
+        background: #504DC2 20.44%;
+    }
+    100%{
+        background: #5F12D0 80.91%;
+
+    }
+}

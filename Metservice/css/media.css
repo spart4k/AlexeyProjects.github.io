@@ -1,0 +1,142 @@
+@media screen and (max-width: 1320px){
+	.blockbus img {
+  		position: absolute;
+  		right: 0rem;
+  		bottom: -11rem;
+}
+}
+@media screen and (max-width: 640px){
+	html{
+		font-size: 5px;	
+	}
+	.blockstart {
+  		background-image: url(../img/blockstart.png);
+  		background-position: center;
+  		padding: 1.5rem 0rem 1.5rem 0rem;
+	}
+	.blockstart-nav {
+  		margin-bottom: 2rem;
+  		padding: 0rem 1rem 0rem 1rem;
+		}
+	.blockstart-nav h1{
+  		font-size: 3.5rem;	
+		}
+	.blockstart-nav__bar {
+  		min-width: 27rem;
+		}
+	.blockstart-content{
+		padding: 0 1rem 0 1rem;
+			}
+	.blockstart-content h1{
+			font-size: 3rem;
+		}
+	.blockstart-content__contacts {
+  			margin-top: 0.5rem;
+		}
+	.blockpartner-list {
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: space-between;
+  		flex-wrap: wrap;
+  		font-size: 2.5rem;
+  		flex-direction: column;
+	}
+	.blockreview img{
+  		display: none;
+	}
+	.blockreview-list{
+		flex-wrap: wrap;
+	}
+	.blockreview-list__table{
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	.blockservices-list__table img {
+  		width: 10rem;	
+	}
+	.blockbus img {
+  		display: none;
+	}
+	.blockbus{
+		background-image: url(../img/blockbus.png);
+		background-position: center;
+		padding: 3.6rem 2rem 3rem 2rem;
+		text-align: center;
+	}
+	.blockbus h2{
+		margin: 0 auto 3.8rem auto;
+	}
+	.blockreview-list__table p{
+		max-width: 170px;
+	}
+	.blockservices-list{
+		flex-direction: column;
+	}
+	.blockservices-list__table {
+  		padding-top: 1.5rem;
+  		margin: 1rem auto 0 auto;
+  		width: 26rem;
+  		height: 18rem;
+	}
+	.blockservices-list__table p{
+		font-size: 2.5rem;	
+	}
+	.blockservices-list__table img {
+  		width: 6.5rem;
+	}
+	.blockservices-list__table:last-child img {
+  		left: 34%;
+  		top:50%;
+  		width: 9rem;
+	}
+	.footer{
+		padding-left: 1rem;
+	}
+	.footer-copyright {
+  		width: 45%;
+	}
+	.footer-copyright__left {
+  		width: 40%;
+	}
+	.footer-copyright__right {
+  		width: 55%;
+	}
+	.footer-addres{
+  		width: 55%;
+	}
+	.footer-addres__left {
+  		width: 60%;
+	}
+}
+@media (min-width: 320px) and (max-width: 640px){
+	.blockstart{
+		background-image: url(../img/blockstart.png);
+	}
+}
+@media (min-width: 640px) and (max-width: 1100px){
+	.blockbus img{
+		display: none;
+	}
+	.blockreview-list{
+		flex-wrap: wrap;
+	}
+	.blockreview-list__table{
+		max-width: 284px;
+		margin: auto;
+	}
+	.blockreview-list img {
+ 		display: none;
+	}
+	.blockservices-list{
+		flex-wrap: wrap;
+	}
+	.blockbus{
+		text-align: center;
+	}
+	.blockbus h2{
+		margin: 0 auto 3.8rem auto;
+	}
+	.blockservices-list__table {
+		margin-top: 3rem;
+	}
+}

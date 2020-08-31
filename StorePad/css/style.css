@@ -1,0 +1,86 @@
+.leftmenu{
+  position: fixed;
+  background-color: #fff;
+  width: 15%;
+  height: 100%;
+  box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 2.8rem 0rem 0 0rem;
+}
+.leftmenu img{
+  max-width: 100%;
+}
+.main{
+  width: 85%;
+  padding-left: 15%;
+}
+.nav {
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+}
+.navbar {
+  list-style: none;
+  max-width: 20rem;
+  margin: auto;
+
+
+}
+.navbar a{
+  color: #1D191F;
+  font-size: 0.9vw; 
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/dropbutton.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 4rem;
+}
+.icon{
+  width: 1.6rem; 
+  height: 1.6rem;
+  margin-right: 1.8rem;
+}
+.imgMain{
+  background-image: url(../img/icon1.png);
+}
+.imgOrder{
+  background-image: url(../img/icon2.png);
+}
+.imgClients{
+  background-image: url(../img/icon3.png);
+}
+.imgDisplay{
+  background-image: url(../img/icon4.png);
+}
+/* header */
+.header{
+  padding: 2rem 5.5rem; 
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0px 8px 6px 0px rgba(50, 50, 50, 0.75);
+  background-color: #fff;
+}
+.personalAreaBar{
+  width: 22rem; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.personalAreaBar a{
+  color: #1D191F;
+  font-size: 2.2rem; 
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.avatar{
+  margin-right: 1.5rem;
+}
+.content{
+  background-color: #F5F6F8;
+  height: 100rem;
+  box-shadow: inset 1px 4px 9px -10px;
+  padding: 3rem 3rem;
+}

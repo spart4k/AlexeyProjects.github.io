@@ -12,7 +12,12 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/styleanimation.css">
 		<link rel="stylesheet" href="css/fontello.css" type="text/css">
+		<link
+    		rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 		
 		<!-- Custom styles for this template -->
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
@@ -24,7 +29,7 @@
 				<h1>РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h2>
 				<p>стадионы, газопроводы, мосты, дамбы</p>
 			</div>
-			<div class="blockstart-yearold">
+			<div class="blockstart-yearold wow">
 				<div class="blockstart-yearold-list">
 					<div class="blockstart-yearold-list__table">
 						<span>26</span>
@@ -49,8 +54,8 @@
 				</div>
 			</div>
 			<div class="blockstart-big">
-						<h3>НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h2>
-						<div class="blockstart-big-list">
+						<h3 class="wow">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h2>
+						<div class="blockstart-big-list wow">
 							<div class="blockstart-big-list__table">
 								<img src="img/bigproject.png" alt="">
 								<hr>
@@ -78,17 +83,17 @@
 					<div class="container">	
 					<div class="blocksmart-heading-content">	
 						<div class="blocksmart-heading__text">
-						<h2>САМЫЕ УМНЫЕ ПРОЕКТЫ</h2>
-						<p>РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
+						<h2 class="wow">САМЫЕ УМНЫЕ ПРОЕКТЫ</h2>
+						<p class="wow">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
 						</div>
-							<div class="blocksmart-btn"><img src="img/mail.png" alt="">ВАШ ЗАПРОС</div>
+							<div class="blocksmart-btn wow" ><img src="img/mail.png" alt="">ВАШ ЗАПРОС</div>
 					</div>
 					</div>
 				</div>
 			<div class="container">
 				
-				<h3>ЧЕМ МЫ ЗАНИМАЕМСЯ?</h3>
-				<div class="blocksmart-list">
+				<h3 class="wow">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h3>
+				<div class="blocksmart-list wow">
 					<div class="blocksmart-list__table">
 						<img src="img/house.png" alt="">
 						<p>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</p>
@@ -163,8 +168,8 @@
 		</div>
 		<div class="blockpartner">
 			<div class="container">
-				<h3>наши партнеры</h3>
-				<div class="blockpartner-list">
+				<h3 class="wow">наши партнеры</h3>
+				<div class="blockpartner-list wow">
 					<div class="blockpartner-list__table"><img src="img/partner.png" alt=""></div>
 					<div class="blockpartner-list__table"><img src="img/partner.png" alt=""></div>
 					<div class="blockpartner-list__table"><img src="img/partner.png" alt=""></div>
@@ -205,17 +210,17 @@
 					<div class="container">	
 					<div class="blockwork-heading-content">	
 						<div class="blockwork-heading__text">
-						<h2>ХОТИТЕ С НАМИ РАБОТАТЬ?</h2>
-						<p>ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</p>
+						<h2 class="wow">ХОТИТЕ С НАМИ РАБОТАТЬ?</h2>
+						<p class="wow">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</p>
 						</div>
-							<div class="blockwork-btn"><img src="img/mail.png" alt="">ВАШ ЗАПРОС</div>
+							<div class="blockwork-btn wow"><img src="img/mail.png" alt="">ВАШ ЗАПРОС</div>
 					</div>
 					</div>
 		</div>
 		<div class="blockcontact">
 			<div class="container">
-				<h3>КОНТАКТЫ</h3>
-					<div class="blockcontact-list">
+				<h3 class="wow">КОНТАКТЫ</h3>
+					<div class="blockcontact-list wow">
 						<div class="blockcontact-list__table">
 							<img src="img/icon-geo.png" alt="">
 						<div class="contact-head">АДРЕС:</div>
@@ -250,6 +255,11 @@
 			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="js/wow.min.js"></script>
+		<script>	
+		var wow = new WOW;
+		wow.init();
+		</script>		
 		<script src="js/script.js"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	</body>

@@ -17,6 +17,15 @@
   list-style: none;
   width: 60rem;
 }
+.blockstart-header__nav-bar__active {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding-left: 3rem;
+  height: 100%;
+  padding-top: 2rem;
+  position: fixed;
+}
 .blockstart-header__nav-bar a {
   display: block;
   text-decoration: none;
@@ -138,10 +147,18 @@
 }
 .blockdevelopment__content img {
   max-width: 100%;
+  animation-name: slideright;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
 }
 .blockdevelopment__content-text {
   max-width: 48.9rem;
   margin-top: 5rem;
+  animation-name: slideleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
 }
 .blockdevelopment__content-text p {
   margin: 4rem 0 3rem 0;
@@ -161,6 +178,36 @@
   min-width: 7rem;
   text-align: center;
   margin: auto;
+}
+.blockdevelopment__list-table__first {
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+.blockdevelopment__list-table__second {
+  animation-name: slideDown;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+.blockdevelopment__list-table__third {
+  animation-name: slideDown;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+.blockdevelopment__list-table__fourth {
+  animation-name: slideDown;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+.blockdevelopment__list-table__fifth {
+  animation-name: slideDown;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
 }
 .blockdevelopment__list-table p.number {
   display: inline-block;
@@ -186,6 +233,10 @@
   position: absolute;
   top: 0;
   z-index: -1;
+  animation-name: Gradiend;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 .blockscience-heading {
   padding-top: 10rem;
@@ -209,6 +260,21 @@
   max-width: 35rem;
   margin: 2rem auto 2rem auto;
 }
+.blockscience__list-table__first {
+  animation-name: slideleft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.blockscience__list-table__second {
+  animation-name: none;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.blockscience__list-table__third {
+  animation-name: slideright;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
 .blockscience__list-table h2 {
   margin: 3rem 0 3rem 0;
 }
@@ -229,6 +295,9 @@
 .blockproject-heading {
   max-width: 73rem;
   margin: auto;
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
 .blockproject-heading p {
   margin: 5rem auto 7rem auto;
@@ -238,6 +307,26 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 5rem;
+}
+.blockproject-list__table-first {
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.blockproject-list__table-second {
+  animation-name: slideDown;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+.blockproject-list__table-third {
+  animation-name: slideDown;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+.blockproject-list__table-fourth {
+  animation-name: slideDown;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
 }
 .blockproject-list__table img {
   box-shadow: 0px 20px 30px rgba(111, 111, 111, 0.6);
@@ -351,6 +440,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  animation-name: slideDown;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
 }
 .footer ul {
   list-style: url(../img/list-style.png);

@@ -32,6 +32,10 @@
 			flex-wrap: wrap;
 			background-color: #F7F7F7;
 			padding: 5.7rem 13rem;
+			animation-name: slideDown;
+  			animation-duration: 1s;
+  			animation-timing-function: ease-in-out; 
+  			animation-delay: 0;
 			&__table{
 				text-align: center;
 				width: 19rem;
@@ -59,11 +63,19 @@
 			margin: auto;
 			text-align: center;
 			margin-top: 10rem;
+			animation-name: slideUp;
+  			animation-duration: 1s;
+  			animation-timing-function: ease-in-out; 
+  			animation-delay: 0;
 		}
 		&-list{
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
+			animation-name: slideDown;
+  			animation-duration: 1s;
+  			animation-timing-function: ease-in-out; 
+  			animation-delay: 0;	
 			&__table{
 				width: 35rem;
 				margin: 6rem auto 0 auto;
@@ -92,12 +104,23 @@
 		width: 100%;	
 		background-color: #F7654A;
 		padding: 3rem 0 3rem 0;
-		margin-bottom: 15rem;
 		&-content{
+			color: #fff;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			color: #fff;			
+			h2{
+				animation-name: slideleft;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0;	
+			}
+			p{
+				animation-name: slideleft;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0;
+			}
 		}
 
 	}
@@ -105,6 +128,10 @@
 		color: #000;
 		padding: 1.4rem 3rem;
 		background-color: #FFFFFF;
+		animation-name: slideright;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 		&:hover{
 			cursor: pointer;
 		}
@@ -114,12 +141,21 @@
 		}
 	& h3{
 		text-align: center;
+		padding-top: 15rem;
+		animation-name: slideUp;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 	}
 	&-list{
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		text-align: center;
+		animation-name: slideDown;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 		&__table{
 			padding: 5.9rem 8.6rem;
 			background-color: #F7F7F7;
@@ -210,12 +246,20 @@
 	padding: 10rem 0;
 	h3{
 		color: #fff;
+		animation-name: slideUp;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 	}
 	&-list{
 		margin-top: 6rem;
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		animation-name: slideDown;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 		&__table{
 			margin: auto;
 		}
@@ -256,7 +300,19 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			color: #fff;			
+			color: #fff;
+			h2{
+				animation-name: slideleft;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0;
+			}
+			p{
+				animation-name: slideleft;
+  				animation-duration: 1s;
+  				animation-timing-function: ease-in-out; 
+  				animation-delay: 0;
+			}	
 		}
 
 	}
@@ -264,6 +320,10 @@
 		color: #000;
 		padding: 1.4rem 3rem;
 		background-color: #FFFFFF;
+		animation-name: slideright;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 		&:hover{
 			cursor: pointer;
 		}
@@ -275,11 +335,21 @@
 .blockcontact{
 	text-align: center;
 	padding: 10rem 0 15rem 0;
+	h3{
+		animation-name: slideUp;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
+	}
 	&-list{
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		font-size: 2.4rem;
+		animation-name: slideDown;
+  		animation-duration: 1s;
+  		animation-timing-function: ease-in-out; 
+  		animation-delay: 0;
 		&__table{
 			max-width: 25.5rem;
 			margin: 6rem auto 0 auto;

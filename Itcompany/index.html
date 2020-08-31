@@ -13,38 +13,42 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/media.css">
 		<link rel="stylesheet" href="css/fontello.css" type="text/css">
+		<link rel="stylesheet" href="css/styleanimation.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 		
 		<!-- Custom styles for this template -->
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div class="blockstart">
+		<div class="blockstart" id="main">
 			<div class="blockstart-header">
 				<div class="container">
 				<div class="blockstart-header__nav">
 				<ul class="blockstart-header__nav-bar">
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Наши проекты</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="#main">Главная</a></li>
+					<li><a href="#Our">О нас</a></li>
+					<li><a href="#services">Услуги</a></li>
+					<li><a href="#project">Наши проекты</a></li>
+					<li><a href="#contacts">Контакты</a></li>
 				</ul>
+				<div class="icon-menu blockstart-header__nav-btn"></div>
 				</div>
 			</div>
 			<hr>
 		</div>
 			<div class="blockstart-content">
 				<div class="container">
-					<p>Передовая IT студия</p>
+					<p class="wow animate__animated animate__fadeInDownBig">Передовая IT студия</p>
 					<p class="heading">Мы создаем легкие решения 
 сложных задач и проблем</p>
-					<div class="btn">Наши проекты</div>
+					<div class="btn wow animate__animated animate__fadeInUpBig">Наши проекты</div>
 				</div>
 			</div>
 		</div>
-		<div class="blockservices">
+		<div class="blockservices" id="Our">
 			<div class="container">
-				<div class="blockservices__heading">
+				<div class="blockservices__heading wow animate__animated animate__fadeInDown">
 					<h1>Мы создаем мобильные приложения
 для крупных корпораций</h1>
 					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
@@ -87,47 +91,49 @@
 						
 					</div>
 				</div>
-				<div class="btn">Все услуги</div>
+				<div class="btn wow animate__animated animate__fadeInUp">Все услуги</div>
 			</div>
 		</div>
-		<div class="blockdevelopment">
+		<div class="blockdevelopment" id="services">
 			<div class="container">
 
 					<div class="blockdevelopment__content">
-						<div class="blockdevelopment__content-text">
+						<div class="blockdevelopment__content-text wow">
 							<h1>Высокие стандарты
 разработки</h1>
 							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
 							<a href="#">Подробнее о компании</a>
 						</div>
-						<img src="img/development.png" alt="">
+						<img class="wow" src="img/development.png" alt="">
 
 					</div>
 					<hr>
 				<div class="blockdevelopment__list">
-					<div class="blockdevelopment__list-table">
+					<div class="blockdevelopment__list-table blockdevelopment__list-table__first wow">
 						<div class="blockdevelopment__list-table-top">
 							<img src="img/web.png" alt="ВебЛоготип">
 							<p class="number">125</p>
 						</div>
 						<p>Our projects</p>
 					</div>
-					<div class="blockdevelopment__list-table">
+					<div class="blockdevelopment__list-table blockdevelopment__list-table__second wow">
 						<img src="img/web.png" alt="ВебЛоготип">
 						<p class="number">125</p>
 						<p>Our projects</p>
 					</div>
-					<div class="blockdevelopment__list-table">
+					<div class="blockdevelopment__list-table 
+					blockdevelopment__list-table__third wow">
 						<img src="img/web.png" alt="ВебЛоготип">
 						<p class="number">125</p>
 						<p>Our projects</p>
 					</div>
-					<div class="blockdevelopment__list-table">
+					<div class="blockdevelopment__list-table 
+					blockdevelopment__list-table__fourth wow">
 						<img src="img/web.png" alt="ВебЛоготип">
 						<p class="number">125</p>
 						<p>Our projects</p>
 					</div>
-					<div class="blockdevelopment__list-table">
+					<div class="blockdevelopment__list-table blockdevelopment__list-table__fifth wow">
 						<img src="img/web.png" alt="ВебЛоготип">
 						<p class="number">125</p>
 						<p>Our projects</p>
@@ -140,22 +146,22 @@
 				<div class="blockscience-heading">
 				<h1>Наши работы, на которых 
 мы специализируемся</h1>
-				<div class="btn">Все услуги</div>
+				<div class="btn btn__one">Все услуги</div>
 			</div>
 			<div class="blockscience__list">
-				<div class="blockscience__list-table">
+				<div class="blockscience__list-table blockscience__list-table__first wow">
 					<img src="img/science.png" alt="Science">
 					<h2>01. Исследование и упаковка</h2>
 					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
 					<a href="#">Подробнее</a>
 				</div>
-				<div class="blockscience__list-table">
+				<div class="blockscience__list-table blockscience__list-table__second wow">
 					<img src="img/science.png" alt="Science">
 					<h2>01. Исследование и упаковка</h2>
 					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
 					<a href="#">Подробнее</a>
 				</div>
-				<div class="blockscience__list-table">
+				<div class="blockscience__list-table blockscience__list-table__third wow">
 					<img src="img/science.png" alt="Science">
 					<h2>01. Исследование и упаковка</h2>
 					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -165,22 +171,22 @@
 			<hr>	
 			</div>
 		</div>
-		<div class="blockproject">
+		<div class="blockproject" id="project">
 			<div class="container">
-				<div class="blockproject-heading">
+				<div class="blockproject-heading wow">
 					<h1>Наши проекты</h1>
 					<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
 				</div>
 					<div class="blockproject-list">
-						<div class="blockproject-list__table"><img src="img/projectimg.png" alt="projectimg"></div>
-						<div class="blockproject-list__table"><img src="img/projectimg.png" alt="projectimg"></div>
-						<div class="blockproject-list__table"><img src="img/projectimg.png" alt="projectimg"></div>
-						<div class="blockproject-list__table"><img src="img/projectimg.png" alt=""></div>
+						<div class="blockproject-list__table blockproject-list__table-first wow"><img src="img/projectimg.png" alt="projectimg"></div>
+						<div class="blockproject-list__table blockproject-list__table-second wow"><img src="img/projectimg.png" alt="projectimg"></div>
+						<div class="blockproject-list__table blockproject-list__table-third wow"><img src="img/projectimg.png" alt="projectimg"></div>
+						<div class="blockproject-list__table blockproject-list__table-fourth wow"><img src="img/projectimg.png" alt=""></div>
 					</div>
-				<div class="btn">Все проекты</div>
+				<div class="btn wow animate__animated animate__fadeInUp" data-wow-delay="1s">Все проекты</div>
 			</div>
 		</div>
-		<div class="blockreview">
+		<div class="blockreview" id="contacts">
 			<div class="container">
 				<div class="blockreview-heading">
 					<h1>Видео о нашей работе</h1>
@@ -204,7 +210,7 @@
 		</div>
 		<div class="footer">
 			<div class="container">
-				<div class="footer__list">	
+				<div class="footer__list wow">	
 				<ul class="Contacts">
 					<p>Контактная информация</p>
 					<li><a href="#">test@test.ru</a></li>
@@ -237,7 +243,14 @@
 			<p class="copyright">(с) 2019. Все права защищены.</p>
 				</div>
 		</div>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+		<script src="js/Jquery182.min.js"></script>
+
+		<script src="js/wow.min.js"></script>
+		<script>	
+		var wow = new WOW;
+		wow.init();
+		</script>	
 		<script src="js/script.js"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	</body>
